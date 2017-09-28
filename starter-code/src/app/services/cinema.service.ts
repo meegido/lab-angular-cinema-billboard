@@ -106,9 +106,9 @@ export class CinemaService {
   }
 
   getMovie(id) {
-    this.movies = this.movies.filter(
-      (movie) => movie.id === id
-    );
+    // this.movies = this.movies.filter(
+    //   (movie) => movie.id === id
+    // );
   }
 
 }
