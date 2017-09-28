@@ -13,7 +13,6 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: MyHomeComponentComponent },
   { path: 'movie/:id', component: MyMovieComponentComponent}
-
 ]
 
 @NgModule({
